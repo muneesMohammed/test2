@@ -219,7 +219,7 @@ height: 600px;
   height: 45px; */
 }
 
-.sect-card h2{
+.heading{
   font-size: 28px;
   font-family:"Open Sans"; 
   font-weight:800;
@@ -262,6 +262,47 @@ height: 250px;
 position: relative;
 top: -40px;
 }
+.caption{
+ font-size: 20px;
+ font-family:"Open Sans"; 
+ font-weight:800;
+ color: #013a2d;
+ margin-top: -20px;
+  }
+  .card2 p{
+    font-size: 14px;
+    font-family: "poppins";
+    color: #888a89;
+  }
+  .lastrow{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .lastrow h2{
+    font-size: 25px;
+    font-family:"Open Sans"; 
+    font-weight:800;
+    color: #013a2d;
+  }
+  .lastrow button {
+    border: none;
+    background-color: #013a2d;
+    color: rgb(255, 255, 255);
+    width: 130px;
+    height: 45px;
+    margin-top: 20px;
+  }
+  .iconchild{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* .icontable{ */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+  /* } */
 /* .card-array::-webkit-scrollbar { */
   /* display: none; */
 /* } */
